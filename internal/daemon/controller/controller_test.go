@@ -257,6 +257,7 @@ func TestController_NewPluginsConfig(t *testing.T) {
 	conf.EnabledPlugins = []base.EnabledPlugin{
 		base.EnabledPluginAws,
 		base.EnabledPluginHostAzure,
+		base.EnabledPluginHostGoogle,
 	}
 
 	_, err = New(testCtx, conf)

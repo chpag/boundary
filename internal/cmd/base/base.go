@@ -38,6 +38,7 @@ const (
 	EnabledPluginAws
 	EnabledPluginHostAzure
 	EnabledPluginMinio
+	EnabledPluginHostGoogle
 )
 
 // MinioEnabled controls if the Minio storage plugin should be initiated or not
@@ -53,6 +54,8 @@ func (e EnabledPlugin) String() string {
 		return "Azure"
 	case EnabledPluginMinio:
 		return "MinIO"
+	case EnabledPluginHostGoogle:
+		return "Google"
 	default:
 		return ""
 	}
