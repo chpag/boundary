@@ -4,7 +4,7 @@ go 1.22.0
 
 require (
 	github.com/hashicorp/boundary/sdk v0.0.43
-	github.com/chpag/boundary-plugin-google v0.0.1
+	github.com/chpag/boundary-plugin-google v0.0.3
 )
 
 require (
