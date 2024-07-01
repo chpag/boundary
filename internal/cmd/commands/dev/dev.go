@@ -824,7 +824,7 @@ func (c *Command) Run(args []string) int {
 	}
 
 	{
-		c.EnabledPlugins = append(c.EnabledPlugins, base.EnabledPluginAws, base.EnabledPluginHostAzure,base.EnabledPluginGoogle)
+		c.EnabledPlugins = append(c.EnabledPlugins, base.EnabledPluginAws, base.EnabledPluginHostAzure,base.EnabledPluginHostGoogle)
 		if base.MinioEnabled {
 			c.EnabledPlugins = append(c.EnabledPlugins, base.EnabledPluginMinio)
 		}
