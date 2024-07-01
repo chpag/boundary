@@ -60,5 +60,3 @@ require (
 	google.golang.org/protobuf v1.33.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
- 337 changes: 337 additions & 0 deletions337  
-plugins/boundary/mains/google/go.sum
